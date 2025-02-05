@@ -16,7 +16,7 @@ from PIL import Image
 import matplotlib.patches as mpatches
 
 
-huggingface_hub.login('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')
+huggingface_hub.login('')
 
 model_file = hf_hub_download(repo_id="microsoft/BiomedParse", filename="biomedparse_v1.pt", local_dir="pretrained")
 
